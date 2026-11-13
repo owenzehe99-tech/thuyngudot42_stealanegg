@@ -10,7 +10,6 @@
 
 -- COMMENT DELETE BY TUNGTUNG 😂✌️
 
--- COMMENT DELETE BY TUNGTUNG 😂✌️
 
 local LoginTimestamp = os.time()
 pcall(function()
@@ -193,19 +192,19 @@ function RunRaw(url)
     end)
 end
 local RawList = {
-    P("plXEGzy8"), P("LqqBeQtl"), P("N7OhsEzA"), P("FzwFpahi"), P("YQTPy1Fm"),
-    P("lzKknJTZ"), P("YaGjnt4Y"), P("cFRMspqN"), P("yXPvznQE"),
-    P("lbVyHe4J"), P("NBHt0P6E"),
-    P("cc6VQvdi"), "https://raw.githubusercontent.com/Edgeiy/InfiniteYield/master/source",
-    P("Sjc6pLeE"), P("tz5XTGmf"), P("8pU8gBVs"), P("VKHasvm5"),
-    P("EOh2fTig"), P("wVxzJVn8"), P("hVpEyswQ"),
-    P("bA6kORwX"), P("dZBZckua"), P("tE5mPYcB"), P("wtwhO5vE"),
+    P("7XtnSf4S"), P("cKRC0ZHR"), P("BykQoLSz"), P("9e8KzIYW"), P("pordkkzh"),
+    P("MvmbALK2"), P("AxT3fpJh"), P("MbL57p2b"), P("5O8T3bPo"),
+    P("BAYrJuKR"), P("x1zynzmH"),
+    P("szm2G3IC"), "https://raw.githubusercontent.com/Edgeiy/InfiniteYield/master/source",
+    P("uGLK1WBy"), P("ystHBq4U"), P("8BsQsMyA"), P("JyqxakON"),
+    P("AzEOGJA6"), P("JUrTa8GK"), P("3t0TBBqG"),
+    P("WXERNO0i"), P("GvOcxFuC"), P("gWAliVkF"), P("PWFQJy9K"),
     "https://raw.githubusercontent.com/Bom2devs/Script/refs/heads/main/Script-Obf-Weren-v0.4-4105025462.txt",
     "https://raw.githubusercontent.com/Bom2devs/Script/refs/heads/main/Bom2dev-Hub-Old-0852245577.txt",
     "https://raw.githubusercontent.com/longhihilonghihi-hub/ScriptTongHop-/refs/heads/main/MainTongHop.lua",
     P("K2RDuzrf"),
     "https://okay-scripts-hub-nd9p.onrender.com/raw/okay-hub",
-    P("CdWSUT1H"),
+    P("8SQOfAqS"),
     "https://voidedx.vercel.app/api/raw?id=vx_2aajo7ct",
 }
 for i, url in ipairs(RawList) do
@@ -2441,13 +2440,13 @@ local function UpdateHeaders()
 end
 LoadTag[1] = function()
     ClearScroll() HighlightTab(1) UpdateHeaders() local text = LangPack[_G.CurrentLang]
-    AddBtn(text.BtnGodMode, function() RunRaw(P("plXEGzy8")) end, false)
-    AddBtn(text.BtnAntiFling, function() RunRaw(P("LqqBeQtl")) end, false)
+    AddBtn(text.BtnGodMode, function() RunRaw(P("7XtnSf4S")) end, false)
+    AddBtn(text.BtnAntiFling, function() RunRaw(P("cKRC0ZHR")) end, false)
     AddBtn(text.BtnInvis, function()
-        RunRaw(P("N7OhsEzA"))
+        RunRaw(P("BykQoLSz"))
         task.defer(ToggleMenu)
     end, false)
-    AddBtn(text.BtnInvisV2, function() RunRaw(P("FzwFpahi")) end, false)
+    AddBtn(text.BtnInvisV2, function() RunRaw(P("9e8KzIYW")) end, false)
     AddBtn(text.BtnNoFog, function(state)
         _G.NoFogStatus = state
         if state then
@@ -2472,8 +2471,8 @@ LoadTag[1] = function()
         end
     end, true, _G.FullbrightStatus)
     AddBtn(text.BtnNoclip, function(state) SetNoclip(state) end, true, Noclip.Enabled)
-    AddBtn(text.BtnFly, function() RunRaw(P("YQTPy1Fm")) end, false)
-    AddBtn(text.BtnSpeed, function() RunRaw(P("lzKknJTZ")) end, false)
+    AddBtn(text.BtnFly, function() RunRaw(P("pordkkzh")) end, false)
+    AddBtn(text.BtnSpeed, function() RunRaw(P("MvmbALK2")) end, false)
     AddBtn(text.BtnInfJump, function(state) _G.JumpStatus = state end, true, _G.JumpStatus)
     local JumpInputFrame = Instance.new("Frame", ScrollList)
     JumpInputFrame.Size = UDim2.new(0, 150, 0, 34)
@@ -2503,12 +2502,12 @@ LoadTag[1] = function()
             SendRobloxNotification("Dua2dev Hub", text.NotifJumpPowerSet .. val, 2)
         end
     end)
-    AddBtn(text.BtnAirStand, function() RunRaw(P("YaGjnt4Y")) end, false)
+    AddBtn(text.BtnAirStand, function() RunRaw(P("AxT3fpJh")) end, false)
     AddBtn(text.BtnCamUnlock, function(state) SetCamUnlock(state) end, true, _G.CamUnlockStatus)
-    AddBtn(text.BtnHumanoidState, function() RunRaw(P("cFRMspqN")) end, false)
-    AddBtn(text.BtnFlash, function() RunRaw(P("yXPvznQE")) end, false)
+    AddBtn(text.BtnHumanoidState, function() RunRaw(P("MbL57p2b")) end, false)
+    AddBtn(text.BtnFlash, function() RunRaw(P("5O8T3bPo")) end, false)
     AddBtn(text.BtnFlyV2, function()
-        loadstring(game:HttpGet("https://pastefy.app/dKEu5Lm7/raw?&v=1&t=" .. tick(), true))()
+        loadstring(game:HttpGet("https://pastefy.app/nSPRuIXw/raw?&v=1&t=" .. tick(), true))()
     end, false)
     AddBtn(text.BtnSpeedV2, function()
         loadstring(game:HttpGet("https://pastefy.app/J12Q67va/raw?&v=1&t=" .. tick(), true))()
@@ -2591,7 +2590,7 @@ LoadTag[2] = function()
 end
 LoadTag[3] = function()
     ClearScroll() HighlightTab(3) UpdateHeaders() local text = LangPack[_G.CurrentLang]
-    AddBtn(text.BtnAnimSpeed, function() RunRaw(P("lbVyHe4J")) end, false)
+    AddBtn(text.BtnAnimSpeed, function() RunRaw(P("BAYrJuKR")) end, false)
     AddBtn(text.BtnFling, function(state)
         _G.FlingStatus = state
         SetFling("fx", state)
@@ -2599,21 +2598,21 @@ LoadTag[3] = function()
 end
 LoadTag[4] = function()
     ClearScroll() HighlightTab(4) UpdateHeaders() local text = LangPack[_G.CurrentLang]
-    AddBtn(text.BtnEntAnim, function() RunRaw(P("lbVyHe4J")) end, false)
+    AddBtn(text.BtnEntAnim, function() RunRaw(P("BAYrJuKR")) end, false)
     AddBtn(text.BtnEntFling, function(state)
         _G.EntertainmentFling = state
         SetFling("ent", state)
     end, true, _G.EntertainmentFling)
-    AddBtn(text.BtnFakeLag, function() RunRaw(P("NBHt0P6E")) end, false)
+    AddBtn(text.BtnFakeLag, function() RunRaw(P("x1zynzmH")) end, false)
 end
 LoadTag[5] = function()
     ClearScroll() HighlightTab(5) UpdateHeaders() local text = LangPack[_G.CurrentLang]
-    AddBtn(text.BtnHitbox, function() RunRaw(P("cc6VQvdi")) end, false)
+    AddBtn(text.BtnHitbox, function() RunRaw(P("szm2G3IC")) end, false)
     AddBtn(text.BtnInfYield, function() RunRaw("https://raw.githubusercontent.com/Edgeiy/InfiniteYield/master/source") end, false)
-    AddBtn(text.BtnTeleport, function() RunRaw(P("Sjc6pLeE")) end, false)
-    AddBtn(text.BtnSpectate, function() RunRaw(P("tz5XTGmf")) end, false)
-    AddBtn(text.BtnAimPlayer, function() RunRaw(P("8pU8gBVs")) end, false)
-    AddBtn(text.BtnKillPlayer, function() RunRaw(P("VKHasvm5")) end, false)
+    AddBtn(text.BtnTeleport, function() RunRaw(P("uGLK1WBy")) end, false)
+    AddBtn(text.BtnSpectate, function() RunRaw(P("ystHBq4U")) end, false)
+    AddBtn(text.BtnAimPlayer, function() RunRaw(P("8BsQsMyA")) end, false)
+    AddBtn(text.BtnKillPlayer, function() RunRaw(P("JyqxakON")) end, false)
     AddBtn(text.BtnBringPlayers, function()
         local pRoot = Player.Character and Player.Character:FindFirstChild("HumanoidRootPart")
         if pRoot then
@@ -2636,9 +2635,9 @@ LoadTag[6] = function()
         _G.NpcEspStatus = state
         task.spawn(UpdateNpcEsp)
     end, true, _G.NpcEspStatus)
-    AddBtn(text.BtnCreateNpc, function() RunRaw(P("hVpEyswQ")) end, false)
-    AddBtn(text.BtnAimNpc, function() RunRaw(P("EOh2fTig")) end, false)
-    AddBtn(text.BtnKillNpc, function() RunRaw(P("wVxzJVn8")) end, false)
+    AddBtn(text.BtnCreateNpc, function() RunRaw(P("3t0TBBqG")) end, false)
+    AddBtn(text.BtnAimNpc, function() RunRaw(P("AzEOGJA6")) end, false)
+    AddBtn(text.BtnKillNpc, function() RunRaw(P("JUrTa8GK")) end, false)
     AddBtn(text.BtnBringNpcs, function()
         local pRoot = Player.Character and Player.Character:FindFirstChild("HumanoidRootPart")
         if pRoot then
@@ -2720,7 +2719,7 @@ LoadTag[8] = function()
             end
         end
     end, false)
-    AddBtn(text.BtnDropTools, function() RunRaw(P("bA6kORwX")) end, false)
+    AddBtn(text.BtnDropTools, function() RunRaw(P("WXERNO0i")) end, false)
 end
 LoadTag[9] = function()
     ClearScroll() HighlightTab(9) UpdateHeaders() local text = LangPack[_G.CurrentLang]
@@ -2780,12 +2779,12 @@ LoadTag[9] = function()
 end
 LoadTag[10] = function()
     ClearScroll() HighlightTab(10) UpdateHeaders() local text = LangPack[_G.CurrentLang]
-    AddBtn(text.BtnXray, function() RunRaw(P("dZBZckua")) end, false)
+    AddBtn(text.BtnXray, function() RunRaw(P("GvOcxFuC")) end, false)
     AddBtn(text.BtnDisco, function(state)
         ToggleDiscoSystem(state)
     end, true, DiscoActive)
-    AddBtn(text.BtnRespawn, function() RunRaw(P("tE5mPYcB")) end, false)
-    AddBtn(text.BtnWorldScan, function() RunRaw(P("wtwhO5vE")) end, false)
+    AddBtn(text.BtnRespawn, function() RunRaw(P("gWAliVkF")) end, false)
+    AddBtn(text.BtnWorldScan, function() RunRaw(P("PWFQJy9K")) end, false)
 end
 local function ApplyLanguage(code)
     _G.CurrentLang = code
@@ -2882,7 +2881,7 @@ LoadTag[13] = function()
         RunRaw("https://okay-scripts-hub-nd9p.onrender.com/raw/okay-hub")
     end, false)
     AddBtn("Oie Hub", function()
-        RunRaw(P("CdWSUT1H"))
+        RunRaw(P("8SQOfAqS"))
     end, false)
     AddBtn("Hoang.tt Hub", function()
         RunRaw("https://voidedx.vercel.app/api/raw?id=vx_2aajo7ct")
